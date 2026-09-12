@@ -38,6 +38,16 @@ public class Inputdian {
         int totalBelanja = subtotalBarang1 + subtotalBarang2 + subtotalBarang3;
         int kembalian = uangDibayar - totalBelanja;
 
+        System.out.println();
+        System.out.println("===== STRUK BELANJA =====");
+        System.out.println(namaBarang1 + "\t" + jumlahBarang1 + " x " + hargaBarang1 + "\t= " + subtotalBarang1);
+        System.out.println(namaBarang2 + "\t" + jumlahBarang2 + " x " + hargaBarang2 + "\t= " + subtotalBarang2);
+        System.out.println(namaBarang3 + "\t" + jumlahBarang3 + " x " + hargaBarang3 + "\t= " + subtotalBarang3);
+        System.out.println("--------------------------");
+        System.out.println("Total belanja\t\t= " + totalBelanja);
+        System.out.println("Uang dibayar\t\t= " + uangDibayar);
+        System.out.println("Kembalian\t\t= " + kembalian);
+
         scanner.close();
     }
 }
